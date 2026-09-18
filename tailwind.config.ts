@@ -9,8 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        white: "#efeff3",
         background: "var(--background)",
         foreground: "var(--foreground)",
+        border: "rgba(255, 255, 255, 0.12)",
+      },
+      padding: {
+        layout: "1.25rem",
       },
     },
   },
